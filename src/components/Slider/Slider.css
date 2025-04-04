@@ -1,0 +1,28 @@
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  text-align: right !important;
+  right: 16px !important;
+  bottom: 0px !important;
+}
+.swiper-pagination-bullet {
+  background: #e2e8f0 !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+  background: #1e40af !important;
+  opacity: 1 !important;
+}
+@media (max-width: 768px) {
+  .swiper-pagination-bullet,
+  .swiper-pagination-bullet-active {
+    width: 7px !important;
+    height: 7px !important;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet {
+    margin: 0 3px !important;
+  }
+}
